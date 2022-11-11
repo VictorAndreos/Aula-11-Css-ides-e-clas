@@ -1,0 +1,42 @@
+/* Comentario didático
+
+*O id com nome descrição não pode ser repetido 
+por uma regra dai dar nomes expecificos a ele.
+
+Jeito 1:
+#descricao-pc{
+    background-color: yellow;
+                                
+#descricao-videogame{               não fazer assim pois polui o codigo 
+    background-color: yellow;
+
+Jeito 2:
+#descricao-pc,#descricao-videogam{
+    background-color: yellow;
+
+*A baixo o jeito correto e mantico 
+} */
+
+html{
+    background-color: black;
+    color: aliceblue;
+}
+
+.descricao-produto{
+    background-color: yellow;
+    color: green;
+    padding: 5px;
+    margin: 20px;  
+}
+.promocao{
+    border: solid 5px;
+    padding: 5px;
+    border-color: blue yellow beige green;
+    margin: 20px;   
+}
+
+h1{
+    border: 20px solid;
+    border-color: blue yellow beige green;
+    padding: 20px;
+}
